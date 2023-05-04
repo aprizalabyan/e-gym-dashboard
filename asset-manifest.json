@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/e-gym-dashboard/static/css/main.bd3a9fef.css",
-    "main.js": "/e-gym-dashboard/static/js/main.9b4ebde1.js",
+    "main.js": "/e-gym-dashboard/static/js/main.a31818b5.js",
     "static/media/profile.png": "/e-gym-dashboard/static/media/profile.774fa99307451ac7988e.png",
     "static/media/revicons.eot": "/e-gym-dashboard/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/e-gym-dashboard/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/e-gym-dashboard/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/e-gym-dashboard/index.html",
     "main.bd3a9fef.css.map": "/e-gym-dashboard/static/css/main.bd3a9fef.css.map",
-    "main.9b4ebde1.js.map": "/e-gym-dashboard/static/js/main.9b4ebde1.js.map"
+    "main.a31818b5.js.map": "/e-gym-dashboard/static/js/main.a31818b5.js.map"
   },
   "entrypoints": [
     "static/css/main.bd3a9fef.css",
-    "static/js/main.9b4ebde1.js"
+    "static/js/main.a31818b5.js"
   ]
 }
