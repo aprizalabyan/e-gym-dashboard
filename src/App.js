@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import './App.scss'
 import Sidebar from './components/Sidebar'
 import Topbar from './components/Topbar';
@@ -11,26 +11,26 @@ import Setting from './components/pages/Setting';
 import Help from './components/pages/Help';
 import Logout from './components/pages/Logout';
 
-function App() {
+const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <div className="rowContainer">
         <Sidebar/>
         <div className="body">
           <Topbar />
           <Routes>
-            <Route path="/" element={<Dashboard />}/>
-            <Route path="/member" element={<Member />}/>
-            <Route path="/schedule" element={<Schedule />}/>
-            <Route path="/trainer" element={<Trainer />}/>
-            <Route path="/payment" element={<Payment />}/>
-            <Route path="/setting" element={<Setting />}/>
-            <Route path="/help" element={<Help />}/>
-            <Route path="/logout" element={<Logout />}/>
+            <Route exact path="/" element={<Dashboard />}/>
+            <Route exact path="/member" element={<Member />}/>
+            <Route exact path="/schedule" element={<Schedule />}/>
+            <Route exact path="/trainer" element={<Trainer />}/>
+            <Route exact path="/payment" element={<Payment />}/>
+            <Route exact path="/setting" element={<Setting />}/>
+            <Route exact path="/help" element={<Help />}/>
+            <Route exact path="/logout" element={<Logout />}/>
           </Routes>
         </div>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
