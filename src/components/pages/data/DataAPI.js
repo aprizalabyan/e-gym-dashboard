@@ -54,13 +54,6 @@ export const dataExisting = [
     profile: img
   },
   {
-    id: 1,
-    name: "Alucard",
-    address: "Selong",
-    started: "09.17 am",
-    profile: img
-  },
-  {
     id: 2,
     name: "Franco",
     address: "Masbagik",

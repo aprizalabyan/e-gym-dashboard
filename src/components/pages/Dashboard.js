@@ -5,7 +5,7 @@ import person from '../../assets/person.png'
 import VisitingMembers from './data/VisitingMembers';
 import ExistingMembers from './data/ExistingMembers';
 import Notifications from './data/Notifications';
-import Schedule from './data/Schedule';
+import UpcomingSchedule from './data/UpcomingSchedule';
 
 const Dashboard = () => {
   const responsive = {
@@ -121,7 +121,7 @@ const Dashboard = () => {
                 <span className="subtitle">Upcoming Schedule</span>
               </div>
               <div className="d-flex">
-                <Schedule />
+                <UpcomingSchedule />
               </div>
             </div>
           </div>
